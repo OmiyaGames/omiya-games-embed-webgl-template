@@ -1,12 +1,12 @@
 {
-  "name": "com.omiyagames.template",
-  "displayName": "Omiya Games - Template Unity Package",
+  "name": "com.omiyagames.embedwebgltemplate",
+  "displayName": "Omiya Games - Embed WebGL Template",
   "version": "0.1.0-preview.1",
   "unity": "2019.3",
-  "unityRelease": "7f1",
-  "description": "This is a template package, used as a basis to build a bigger one.",
-  "category": "Tool",
-  "type": "tool",
+  "unityRelease": "10f1",
+  "description": "WebGL Template for creating WebGL builds that can be embedded into popular web portals. This template will automatically resize to fit within the embed, including fullscreen.",
+  "category": "Template",
+  "type": "template",
   "license": "MIT",
   "author": {
     "name": "Taro Omiya",
@@ -18,7 +18,6 @@
   },
   "keywords": [
     "Omiya Games",
-    "Scripts",
     "Template",
     "Tool"
   ],

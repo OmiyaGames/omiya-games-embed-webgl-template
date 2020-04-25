@@ -1,7 +1,9 @@
 {
-    "name": "OmiyaGames.Template",
+    "name": "OmiyaGames.EmbedWebGLTemplate.Editor",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

@@ -1,7 +1,7 @@
 {
-    "name": "OmiyaGames.Template.Editor",
+    "name": "OmiyaGames.EmbedWebGLTemplate.Editor.Tests",
     "references": [
-        "OmiyaGames.Template"
+        "OmiyaGames.EmbedWebGLTemplate.Editor"
     ],
     "includePlatforms": [
         "Editor"
@@ -12,5 +12,8 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": []
+    "versionDefines": [],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
 }
