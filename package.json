@@ -23,9 +23,9 @@
   ],
   "samples": [
     {
-      "displayName": "Example 1",
-      "description": "This sample is just an example",
-      "path": "Samples~/Example1"
+      "displayName": "Omiya Games' WebGL Template",
+      "description": "Same as the Embed WebGL Template above, but with Omiya Games' logo over the HTML loading bar.",
+      "path": "Samples~/OmiyaGamesTemplate"
     }
   ]
 }
