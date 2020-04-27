@@ -77,7 +77,7 @@ Only the latest source code will be installed via this method, and will not be m
 
 ### Installing WebGL Template
 
-Utilizing the template requires importing the files, moving them to folder `Assets/WebGLTemplates`, and finally setting up the Player Settings to utilize the template.
+Utilizing the template requires importing the files, moving them to folder `Assets/WebGLTemplates`, and finally setting up the Player settings to utilize the template.
 
 #### Step 1: Import the Template
 
@@ -109,7 +109,9 @@ Under Unity's menu bar, select "Edit -> Project Settings..."
 
 ![Project Settings context menu](/Documentation~/settings1.png)
 
-In the Project Settings window, click on "Player Settings" on the left sidebar. Select the WebGL tab (if it's not there, you'll need to install WebGL build files on Unity Hub). Finally, under the group, "Resolution and Presentation", select `Embed WebGL Template`:
+1. In the Project Settings window, click on "Player" on the left sidebar.
+2. Select the WebGL tab (if it's not there, you'll need to install WebGL build files on Unity Hub).
+3. Finally, under the group, "Resolution and Presentation", select `Embed WebGL Template`:
 
 ![Final Player Settings Configuration](/Documentation~/settings2.png)
 
