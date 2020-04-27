@@ -1,8 +1,8 @@
-### Installing WebGL Template
+# Installing Template
 
-Utilizing the template requires importing the files, moving them to folder `Assets/WebGLTemplates`, and finally setting up the Player settings to utilize the template.
+Utilizing the template requires importing the files, moving them to folder `Assets/WebGLTemplates`, and finally setting up the WebGL Player settings.
 
-#### Step 1: Import the Template
+### Step 1: Import the Template
 
 Navigate to this package in the Package Manager, and import "Embed WebGL Template."
 
@@ -12,7 +12,7 @@ Unity should automatically create an `Embed WebGL Template` folder with the file
 
 ![Import Results](/Documentation~/project1.png)
 
-#### Step 2: Create a `WebGLTemplates` folder, if you haven't already
+### Step 2: Create a `WebGLTemplates` folder, if you haven't already
 
 In the Project windor, return back to the root folder, `Assets`. Verify if the folder, `WebGLTemplates`, already exists. If not, right-click in the middle of the window, and select "Create -> Folder."
 
@@ -20,13 +20,13 @@ In the Project windor, return back to the root folder, `Assets`. Verify if the f
 
 Upon creation of a new folder, enter `WebGLTemplates`.
 
-#### Step 3: Move the imported files into the `WebGLTemplates` folder
+### Step 3: Move the imported files into the `WebGLTemplates` folder
 
 Return back to the imported files, and drag-and-drop the folder, `Embed WebGL Template` into `WebGLTemplates`.
 
 ![Drag-and-Drop Template Files](/Documentation~/project3.png)
 
-#### Step 4: Update WebGL Player Settings to Use the Template
+### Step 4: Update WebGL Player Settings to Use the Template
 
 Under Unity's menu bar, select "Edit -> Project Settings..."
 
@@ -38,7 +38,7 @@ Under Unity's menu bar, select "Edit -> Project Settings..."
 
 ![Final Player Settings Configuration](/Documentation~/settings2.png)
 
-# Customizing Template
+## Customizing Template
 
 Files to consider customizing to suite your needs include:
 
