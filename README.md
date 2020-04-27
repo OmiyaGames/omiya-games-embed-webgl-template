@@ -62,10 +62,16 @@ Add towards the bottom of the dependencies list the line, `"com.omiyagames.embed
 
 #### Package Manager
 
-The package itself can be installed with Unity's own Package Manager using the Github URL:
+The package itself can be installed with Unity's own Package Manager:
+
+![Add Git URL](/Documentation~/packageManager1.png)
+
+Simply enter the following Github URL:
 ```
 https://github.com/OmiyaGames/omiya-games-embed-webgl-template.git
 ```
+
+![Enter Git URL](/Documentation~/packageManager2.png)
 
 Only the latest source code will be installed via this method, and will not be monitored for any upgrades.
 
@@ -73,9 +79,39 @@ Only the latest source code will be installed via this method, and will not be m
 
 Utilizing the template requires importing the files, moving them to folder `Assets/WebGLTemplates`, and finally setting up the Player Settings to utilize the template.
 
-#### Step 1: TODO
+#### Step 1: Import the Template
 
-TODO
+Navigate to this package in the Package Manager, and import "Embed WebGL Template."
+
+![Import from Package Manager](/Documentation~/packageManager3.png)
+
+Unity should automatically create an `Embed WebGL Template` folder with the files:
+
+![Import Results](/Documentation~/project1.png)
+
+#### Step 2: Create a `WebGLTemplates` folder, if you haven't already
+
+In the Project windor, return back to the root folder, `Assets`. Verify if the folder, `WebGLTemplates`, already exists. If not, right-click in the middle of the window, and select "Create -> Folder."
+
+![Create Folder context menu](/Documentation~/project2.png)
+
+Upon creation of a new folder, enter `WebGLTemplates`.
+
+#### Step 3: Move the imported files into the `WebGLTemplates` folder
+
+Return back to the imported files, and drag-and-drop the folder, `Embed WebGL Template` into `WebGLTemplates`.
+
+![Drag-and-Drop Template Files](/Documentation~/project3.png)
+
+#### Step 4: Update WebGL Player Settings to Use the Template
+
+Under Unity's menu bar, select "Edit -> Project Settings..."
+
+![Project Settings context menu](/Documentation~/settings1.png)
+
+In the Project Settings window, click on "Player Settings" on the left sidebar. Select the WebGL tab (if it's not there, you'll need to install WebGL build files on Unity Hub). Finally, under the group, "Resolution and Presentation", select `Embed WebGL Template`:
+
+![Final Player Settings Configuration](/Documentation~/settings2.png)
 
 ## Other Info
 
