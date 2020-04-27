@@ -11,15 +11,11 @@
     - It even resizes from embed size to full-screen for web portals like Itch.io that supports full-screen buttons.
 - A light and dark mode.
 
-## Install
-
-There are two parts to installing this template: the package, and the template itself.
-
-### Installing Package
+## Installing Package
 
 There are at least 3 ways to install this Unity package:
 
-#### Package Manager
+#### Easy Method: Package Manager
 
 The easiest way to install the package is through Unity's own Package Manager:
 
@@ -34,7 +30,7 @@ https://github.com/OmiyaGames/omiya-games-embed-webgl-template.git
 
 Only the latest source code will be installed via this method, and will not be monitored for any upgrades.  To enable such features, consider the other options listed below:
 
-#### OpenUPM
+#### Best Method: OpenUPM
 
 [OpenUPM](https://openupm.com/) is a command line tool that provides package version support and dependency resolution.  If not installed already, install OpenUPM with Node.js' `npm`:
 ```
@@ -44,8 +40,9 @@ After the command line tool is installed, switch to the root directory of your U
 ```
 openupm add com.omiyagames.embedwebgltemplate
 ```
+This should update the Package Manager with all the available versions of this package. Of course, there's the manual method...
 
-#### Edit `manifest.json`
+#### Manual Method: Edit `manifest.json`
 
 In your Unity project, open `manifest.json` in your favorite text editor under the `Packages` folder. Content should look something similar to an excerpt below:
 ```
@@ -76,10 +73,11 @@ Add towards the bottom of the dependencies list the line, `"com.omiyagames.embed
   ]
 }
 ```
+This should update the Package Manager with all the available versions of this package.
 
-### Installing WebGL Template
+## Configuration
 
-Utilizing the template requires importing the files, moving them to folder `Assets/WebGLTemplates`, and finally setting up the Player settings to utilize the template.
+Utilizing the template requires importing the files, moving them to folder `Assets/WebGLTemplates`, and finally setting up the WebGL Player settings.
 
 #### Step 1: Import the Template
 
@@ -117,7 +115,7 @@ Under Unity's menu bar, select "Edit -> Project Settings..."
 
 ![Final Player Settings Configuration](/Documentation~/settings2.png)
 
-# Customizing Template
+## Customizing Template
 
 Files to consider customizing to suite your needs include:
 
