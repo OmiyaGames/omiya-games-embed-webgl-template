@@ -1,7 +1,7 @@
 {
   "name": "com.omiyagames.embedwebgltemplate",
   "displayName": "Omiya Games - Embed WebGL Template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.3",
   "unityRelease": "10f1",
   "description": "WebGL Template for creating WebGL builds that can be embedded into popular web portals. This template will automatically resize to fit within the embed, including fullscreen.",
