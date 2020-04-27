@@ -1,13 +1,19 @@
-* Note: below is just an example of how one might denote what third-party tools are being utilized.*
+# Company Logos
 
-This package borrows code from various different sources, including:
+By necessity, this project relies on utilizing copyrighted image assets. They are:
 
-# Component: A Third-Party Component
+## Unity Logos
+- [Light version](/Samples~/UnityTemplate/TemplateData/progressLogo.Light.png)
+- [Dark version](/Samples~/UnityTemplate/TemplateData/progressLogo.Dark.png)
+- [Favicon](/Samples~/UnityTemplate/TemplateData/favicon.ico)
 
-## Relevant Files
-- [RuntimeExample.cs](/Runtime/RuntimeExample.cs)
+### License
+Copyright (c) 2020 Unity Technologies
 
-## Credits
-- Author: Taro Omiya
-- Source: [/Runtime/RuntimeExample.cs](/Runtime/RuntimeExample.cs)
-- License: [MIT](/LICENSE.md)
+## Omiya Games Logos
+- [Light version](/Samples~/OmiyaGamesTemplate/TemplateData/progressLogo.Light.png)
+- [Dark version](/Samples~/OmiyaGamesTemplate/TemplateData/progressLogo.Dark.png)
+- [Favicon](/Samples~/OmiyaGamesTemplate/TemplateData/favicon.ico)
+
+### License
+Copyright (c) 2020 Omiya Games
