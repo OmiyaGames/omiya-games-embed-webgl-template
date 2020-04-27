@@ -17,9 +17,26 @@ There are two parts to installing this template: the package, and the template i
 
 ### Installing Package
 
+There are at least 3 ways to install this Unity package:
+
+#### Package Manager
+
+The easiest way to install the package is through Unity's own Package Manager:
+
+![Add Git URL](/Documentation~/packageManager1.png)
+
+Simply enter the following Github URL:
+```
+https://github.com/OmiyaGames/omiya-games-embed-webgl-template.git
+```
+
+![Enter Git URL](/Documentation~/packageManager2.png)
+
+Only the latest source code will be installed via this method, and will not be monitored for any upgrades.  To enable such features, consider the other options listed below:
+
 #### OpenUPM
 
-Installing via [OpenUPM](https://openupm.com/) is also recommended, as it provides version support and dependency resolution.  If not installed already, install OpenUPM with Node.js' `npm`:
+[OpenUPM](https://openupm.com/) is a command line tool that provides package version support and dependency resolution.  If not installed already, install OpenUPM with Node.js' `npm`:
 ```
 npm install -g openupm-cli
 ```
@@ -59,21 +76,6 @@ Add towards the bottom of the dependencies list the line, `"com.omiyagames.embed
   ]
 }
 ```
-
-#### Package Manager
-
-The package itself can be installed with Unity's own Package Manager:
-
-![Add Git URL](/Documentation~/packageManager1.png)
-
-Simply enter the following Github URL:
-```
-https://github.com/OmiyaGames/omiya-games-embed-webgl-template.git
-```
-
-![Enter Git URL](/Documentation~/packageManager2.png)
-
-Only the latest source code will be installed via this method, and will not be monitored for any upgrades.
 
 ### Installing WebGL Template
 
