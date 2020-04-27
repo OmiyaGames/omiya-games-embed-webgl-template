@@ -113,12 +113,21 @@ In the Project Settings window, click on "Player Settings" on the left sidebar. 
 
 ![Final Player Settings Configuration](/Documentation~/settings2.png)
 
+# Customizing Template
+
+Files to consider customizing to suite your needs include:
+
+- The [progressLogo.Light.png](/Samples~/UnityTemplate/progressLogo.Light.png) and [progressLogo.Dark.png](/Samples~/UnityTemplate/progressLogo.Dark.png) are logos displayed during the light and dark WebGL build theme are used respectively. Feel free to replace them.
+- While embedded builds don't show this, it might be good idea to replace the [favicon.ico](/Samples~/UnityTemplate/favicon.ico) as well.
+- Consider also editing the [style.css](/Samples~/UnityTemplate/TemplateData/style.css) file to your liking.
+
 ## Other Info
 
-- [change log](/CHANGELOG.md).
+- [Documentation](/Documentation~/EmbedWebGLTemplate.md).
+- [Change log](/CHANGELOG.md).
 
 ## LICENSE
 
-Overall package is licensed under [MIT](/LICENSE.md), unless otherwise noted in the [3rd party licenses](/THIRD%20PARTY%20NOTICES.md) file and/or source code.
+Overall package is licensed under [MIT](/LICENSE.md). By necessity, this package uses third party images, which are noted in the [3rd party licenses](/THIRD%20PARTY%20NOTICES.md) file.
 
 Copyright (c) 2019-2020 Omiya Games
