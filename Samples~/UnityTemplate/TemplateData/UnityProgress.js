@@ -20,9 +20,14 @@ function UnityProgress(gameInstance, progress) {
     gameInstance.progress.appendChild(gameInstance.progress.progressText);
     gameInstance.container.appendChild(gameInstance.progress);
   }
-  gameInstance.progress.full.style.width = (100 * progress) + "%";
-  gameInstance.progress.empty.style.width = (100 * (1 - progress)) + "%";
-  gameInstance.progress.progressText.innerHTML = Math.round((100 * progress)) + "%";
+  // Calculate the progress to display
+  var displayProgress = (100 * (progress / 0.9));
+  if(displayProgress > 100) {
+    displayProgress = 100;
+  }
+  gameInstance.progress.full.style.width = displayProgress + "%";
+  gameInstance.progress.empty.style.width = (100 - displayProgress) + "%";
+  gameInstance.progress.progressText.innerHTML = Math.round(displayProgress) + "%";
   if (progress == 1)
     gameInstance.logo.style.display = gameInstance.progress.style.display = "none";
 }
