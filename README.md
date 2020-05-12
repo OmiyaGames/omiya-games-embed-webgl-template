@@ -1,8 +1,8 @@
 # [Omiya Games](https://www.omiyagames.com/) - Embed WebGL Template
 
-[![openupm](https://img.shields.io/npm/v/com.omiyagames.embedwebgltemplate?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.omiyagames.embedwebgltemplate/) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
+[![openupm](https://img.shields.io/npm/v/com.omiyagames.embedwebgltemplate?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.omiyagames.embedwebgltemplate/) [![Template Unity Package documentation](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/omiya-games-embed-webgl-template/) [![Mirroring](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Mirroring/badge.svg)](https://bitbucket.org/OmiyaGames/omiya-games-embed-webgl-template) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
 
-![Animated Example](/Documentation~/example.gif)
+![Animated Example](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/example.gif)
 
 **Embed WebGL Template** is a WebGL template for Unity.  The purpose is to allow Unity to create WebGL builds that embeds well in popular web portals such as Itch.io, GameJolt, Newgrounds, etc.  Features this template provides include:
 
@@ -19,14 +19,14 @@ There are at least 3 ways to install this Unity package:
 
 The easiest way to install the package is through Unity's own Package Manager:
 
-![Add Git URL](/Documentation~/packageManager1.png)
+![Add Git URL](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/packageManager1.png)
 
 Simply enter the following Github URL:
 ```
 https://github.com/OmiyaGames/omiya-games-embed-webgl-template.git
 ```
 
-![Enter Git URL](/Documentation~/packageManager2.png)
+![Enter Git URL](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/packageManager2.png)
 
 Only the latest source code will be installed via this method, and will not be monitored for any upgrades.  To enable such features, consider the other options listed below:
 
@@ -83,17 +83,17 @@ Utilizing the template requires importing the files, moving them to folder `Asse
 
 Navigate to this package in the Package Manager, and import "Embed WebGL Template."
 
-![Import from Package Manager](/Documentation~/packageManager3.png)
+![Import from Package Manager](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/packageManager3.png)
 
 Unity should automatically create an `Embed WebGL Template` folder with the files:
 
-![Import Results](/Documentation~/project1.png)
+![Import Results](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/project1.png)
 
 #### Step 2: Create a `WebGLTemplates` folder, if you haven't already
 
 In the Project windor, return back to the root folder, `Assets`. Verify if the folder, `WebGLTemplates`, already exists. If not, right-click in the middle of the window, and select "Create -> Folder."
 
-![Create Folder context menu](/Documentation~/project2.png)
+![Create Folder context menu](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/project2.png)
 
 Upon creation of a new folder, enter `WebGLTemplates`.
 
@@ -101,19 +101,19 @@ Upon creation of a new folder, enter `WebGLTemplates`.
 
 Return back to the imported files, and drag-and-drop the folder, `Embed WebGL Template` into `WebGLTemplates`.
 
-![Drag-and-Drop Template Files](/Documentation~/project3.png)
+![Drag-and-Drop Template Files](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/project3.png)
 
 #### Step 4: Update WebGL Player Settings to Use the Template
 
 Under Unity's menu bar, select "Edit -> Project Settings..."
 
-![Project Settings context menu](/Documentation~/settings1.png)
+![Project Settings context menu](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/settings1.png)
 
 1. In the Project Settings window, click on "Player" on the left sidebar.
 2. Select the WebGL tab (if it's not there, you'll need to install WebGL build files on Unity Hub).
 3. Finally, under the group, "Resolution and Presentation", select `Embed WebGL Template`:
 
-![Final Player Settings Configuration](/Documentation~/settings2.png)
+![Final Player Settings Configuration](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/settings2.png)
 
 ## Customizing Template
 
@@ -125,8 +125,8 @@ Files to consider customizing to suite your needs include:
 
 ## Other Info
 
-- [Documentation](/Documentation~/EmbedWebGLTemplate.md).
-- [Change log](/CHANGELOG.md).
+- [Documentation](https://omiyagames.github.io/omiya-games-embed-webgl-template).
+- [Change log](https://omiyagames.github.io/omiya-games-embed-webgl-template/manual/changelog.html).
 
 ## LICENSE
 
