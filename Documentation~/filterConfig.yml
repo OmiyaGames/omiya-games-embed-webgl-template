@@ -1,13 +1,7 @@
 apiRules:
 - include:
-    # Taro Omiya: Updated namespace for this template
-    # Including the OmiyaGames.Template namespace
-    uidRegex: ^OmiyaGames\.Template$
-    type: Namespace
-- include:
-    # Taro Omiya: Updated namespace for this template
-    # Including the OmiyaGames.Template.Editor namespace
-    uidRegex: ^OmiyaGames\.Template\.Editor$
+    # Including the OmiyaGames.Web.Embed.Editor namespace
+    uidRegex: ^OmiyaGames\.Web\.Embed\.Editor$
     type: Namespace
 - include:
     uidRegex: ^Global
