@@ -21,6 +21,7 @@ jobs:
       # Copying over the change log to the manual
       - name: Build
         run: |
+          cp README.md Documentation~/manual/index.md
           cp CHANGELOG.md Documentation~/manual/changelog.md
           docfx Documentation~/docfx.json
 

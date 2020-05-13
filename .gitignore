@@ -71,3 +71,8 @@ VSCode/*
 *_backup
 *_backup.meta
 *.~*#*
+/_site
+*/obj/*
+Documentation~/api/*
+Documentation~/manual/changelog.*
+Documentation~/manual/index.*
