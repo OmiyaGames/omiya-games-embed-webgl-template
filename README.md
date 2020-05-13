@@ -1,6 +1,6 @@
 # [Omiya Games](https://www.omiyagames.com/) - Embed WebGL Template
 
-[![openupm](https://img.shields.io/npm/v/com.omiyagames.embedwebgltemplate?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.omiyagames.embedwebgltemplate/) [![Template Unity Package documentation](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/omiya-games-embed-webgl-template/) [![Mirroring](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Mirroring/badge.svg)](https://bitbucket.org/OmiyaGames/omiya-games-embed-webgl-template) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
+[![openupm](https://img.shields.io/npm/v/com.omiyagames.embedwebgltemplate?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.omiyagames.embedwebgltemplate/) [![Documentation](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Host%20DocFX%20Documentation/badge.svg)](https://omiyagames.github.io/omiya-games-embed-webgl-template/) [![Mirroring](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Mirroring/badge.svg)](https://bitbucket.org/OmiyaGames/omiya-games-embed-webgl-template) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I3I51KS8F)
 
 ![Animated Example](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/example.gif)
 
