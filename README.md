@@ -117,11 +117,11 @@ Under Unity's menu bar, select "Edit -> Project Settings..."
 
 ## Customizing Template
 
-Files to consider customizing to suite your needs include:
+Files to consider customizing to suit your needs include:
 
-- The [progressLogo.Light.png](/Samples~/UnityTemplate/progressLogo.Light.png) and [progressLogo.Dark.png](/Samples~/UnityTemplate/progressLogo.Dark.png) are logos displayed during the light and dark WebGL build theme are used respectively. Feel free to replace them.
-- While embedded builds don't show this, it might be good idea to replace the [favicon.ico](/Samples~/UnityTemplate/favicon.ico) as well.
-- Consider also editing the [style.css](/Samples~/UnityTemplate/TemplateData/style.css) file to your liking.
+- The [progressLogo.Light.png](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/progressLogo.Light.png) and [progressLogo.Dark.png](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/progressLogo.Dark.png) are logos displayed during the light and dark WebGL build theme are used respectively. Feel free to replace them.
+- While embedded builds don't show this, it might be good idea to replace the [favicon.ico](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/favicon.ico) as well.
+- Consider also editing the [style.css](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/TemplateData/style.css) file to your liking.
 
 ## Other Info
 
