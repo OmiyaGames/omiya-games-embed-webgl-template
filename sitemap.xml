@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://omiyagames.github.io/omiya-games-embed-webgl-template/index.html</loc>
-    <lastmod>2020-05-14T07:32:48+00:00</lastmod>
+    <lastmod>2020-05-14T07:43:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://omiyagames.github.io/omiya-games-embed-webgl-template/manual/changelog.html</loc>
-    <lastmod>2020-05-14T07:32:48+00:00</lastmod>
+    <lastmod>2020-05-14T07:43:16+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
