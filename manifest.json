@@ -23,11 +23,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/changelog.md",
+      "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "manual/changelog.html",
-          "hash": "wq85soSc8bI6jM8PbfXMxw=="
+          "relative_path": "index.html",
+          "hash": "coVSoDzmlsDsj0NggYcTXQ=="
         }
       },
       "is_incremental": false,
@@ -35,11 +35,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/index.md",
+      "source_relative_path": "manual/changelog.md",
       "output": {
         ".html": {
-          "relative_path": "manual/index.html",
-          "hash": "dwWKx0fR0DQ3PDmZBhESkw=="
+          "relative_path": "manual/changelog.html",
+          "hash": "wq85soSc8bI6jM8PbfXMxw=="
         }
       },
       "is_incremental": false,
