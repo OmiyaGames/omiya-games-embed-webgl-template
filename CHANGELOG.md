@@ -2,7 +2,8 @@
 
 ## 1.1.0
 
-- TODO!
+- Now generating [Documentation](https://omiyagames.github.io/omiya-games-embed-webgl-template) via DocFX.
+- Also added Github Action for auto-mirroring.
 
 ## 1.0.2
 
