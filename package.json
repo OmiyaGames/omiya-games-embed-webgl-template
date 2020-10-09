@@ -25,12 +25,7 @@
     {
       "displayName": "Embed WebGL Template",
       "description": "Embeddable WebGL Template, with Unity logo and a percentage number indicating how much progress loading the Unity game has made.",
-      "path": "Samples~/UnityTemplate"
-    },
-    {
-      "displayName": "Omiya Games' WebGL Template",
-      "description": "Same as the Embed WebGL Template above, but with Omiya Games' logo over the HTML loading bar.",
-      "path": "Samples~/OmiyaGamesTemplate"
+      "path": "Samples~/Embed"
     }
   ]
 }
