@@ -1,67 +1,15 @@
-* {
-	border: 0;
-	margin: 0;
-	padding: 0;
-	font-family: 'Noto Sans', sans-serif;
-	font-size: 1.1em;
-}
-canvas {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-}
-canvas + * {
-	z-index: 2;
-}
-#gameContainer {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-#gameContainer .logo, .progress {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-#gameContainer .logo {
-	background: url('progressLogo.Light.png') no-repeat center / contain;
-	width: 170px;
-	height: 140px;
-}
-#gameContainer .progress {
-	height: 22px;
-	width: 170px;
-	margin-top: 90px;
-	text-align: center;
-}
-#gameContainer .progress .empty {
-	background: url('progressEmpty.Light.png') no-repeat right / cover;
-	float: right;
-	width: 100%;
-	height: 100%;
-	display: inline-block;
-}
-#gameContainer .progress .full {
-	background: url('progressFull.Light.png') no-repeat left / cover;
-	float: left;
-	width: 0%;
-	height: 100%;
-	display: inline-block;
-}
-#gameContainer .progress .text {
-	color: #222c36;
-}
-#gameContainer .logo.Dark {
-	background-image: url('progressLogo.Dark.png');
-}
-#gameContainer .progress.Dark .empty {
-	background-image: url('progressEmpty.Dark.png');
-}
-#gameContainer .progress.Dark .full {
-	background-image: url('progressFull.Dark.png');
-}
-#gameContainer .progress.Dark .text {
-	color: #fff;
-}
+* { border: 0; padding: 0; margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 1.1em; }
+#company-logo { width: 154px; height: 130px; background: url('logo-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center }
+#unity-container { position: absolute }
+#unity-container.unity-desktop { width: 100%; height: 100% }
+#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-canvas { background: {{{ BACKGROUND_COLOR }}} }
+.unity-desktop #unity-canvas { width: 100%; height: 100% }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-canvas + * { z-index: 2 }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center }
+#unity-progress-text { text-align: center }
+#unity-progress-text.dark { color: #fff }
+#unity-progress-text.light { color: #222c36 }
