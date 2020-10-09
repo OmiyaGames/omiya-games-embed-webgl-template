@@ -11,6 +11,11 @@
     - It even resizes from embed size to full-screen for web portals like Itch.io that supports full-screen buttons.
 - A light and dark mode.
 
+#### Note:
+
+* Version 2.0.0 and above supports Unity 2020.1 and up.
+* Version 1.1.0 supports Unity 2019.4.
+
 ## Installing Package
 
 There are at least 3 ways to install this Unity package:
