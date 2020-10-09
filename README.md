@@ -11,6 +11,11 @@
     - It even resizes from embed size to full-screen for web portals like Itch.io that supports full-screen buttons.
 - A light and dark mode.
 
+#### Note:
+
+* Version 2.0.0 and above supports Unity 2020.1 and up.
+* Version 1.1.0 supports Unity 2019.4.
+
 ## Installing Package
 
 There are at least 3 ways to install this Unity package:
@@ -111,7 +116,7 @@ Under Unity's menu bar, select "Edit -> Project Settings..."
 
 1. In the Project Settings window, click on "Player" on the left sidebar.
 2. Select the WebGL tab (if it's not there, you'll need to install WebGL build files on Unity Hub).
-3. Finally, under the group, "Resolution and Presentation", select `Embed WebGL Template`:
+3. Finally, under the group, "Resolution and Presentation", select `Embed`:
 
 ![Final Player Settings Configuration](https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/settings2.png)
 
@@ -119,9 +124,9 @@ Under Unity's menu bar, select "Edit -> Project Settings..."
 
 Files to consider customizing to suit your needs include:
 
-- The [progressLogo.Light.png](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/progressLogo.Light.png) and [progressLogo.Dark.png](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/progressLogo.Dark.png) are logos displayed during the light and dark WebGL build theme are used respectively. Feel free to replace them.
-- While embedded builds don't show this, it might be good idea to replace the [favicon.ico](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/favicon.ico) as well.
-- Consider also editing the [style.css](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/TemplateData/style.css) file to your liking.
+- The [logo-light.png](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/main/Samples%7E/Embed/logo-light.png) and [logo-dark.png](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/main/Samples%7E/Embed/logo-dark.png) are logos displayed during the light and dark WebGL build theme are used respectively. Feel free to replace them.
+- While embedded builds don't show this, it might be good idea to replace the [favicon.ico](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/main/Samples%7E/Embed/favicon.ico) as well.
+- Consider also editing the [style.css](https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/main/Samples%7E/Embed/TemplateData/style.css) file to your liking.
 
 ## Other Info
 
