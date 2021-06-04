@@ -1,5 +1,9 @@
 # Change Log:
 
+## 2.0.1
+
+- Minor upgrade to assembly definition files.
+
 ## 2.0.0
 
 - Fix #5: Added support for Unity 2020.1 and above.
