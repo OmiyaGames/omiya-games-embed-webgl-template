@@ -1,0 +1,15 @@
+* { border: 0; padding: 0; margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 1.1em; }
+#company-logo { width: 154px; height: 130px; background: url('logo-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center }
+#unity-container { position: absolute }
+#unity-container.unity-desktop { width: 100%; height: 100% }
+#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-canvas { background: {{{ BACKGROUND_COLOR }}} }
+.unity-desktop #unity-canvas { width: 100%; height: 100% }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-canvas + * { z-index: 2 }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center }
+#unity-progress-text { text-align: center }
+#unity-progress-text.dark { color: #fff }
+#unity-progress-text.light { color: #222c36 }
