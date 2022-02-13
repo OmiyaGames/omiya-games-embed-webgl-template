@@ -8,7 +8,7 @@
     <title>Omiya Games - Embed WebGL Template | Embed WebGL Template documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Omiya Games - Embed WebGL Template | Embed WebGL Template documentation ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.59.0.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -59,11 +59,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -72,7 +72,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="omiya-gameshttpswwwomiyagamescom---embed-webgl-template"><a href="https://www.omiyagames.com/">Omiya Games</a> - Embed WebGL Template</h1>
 
-<p><a href="https://openupm.com/packages/com.omiyagames.embedwebgltemplate/"><img src="https://img.shields.io/npm/v/com.omiyagames.embedwebgltemplate?label=openupm&amp;registry_uri=https://package.openupm.com" alt="openupm"></a> <a href="https://omiyagames.github.io/omiya-games-embed-webgl-template/"><img src="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Host%20DocFX%20Documentation/badge.svg" alt="Documentation"></a> <a href="https://bitbucket.org/OmiyaGames/omiya-games-embed-webgl-template"><img src="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Mirroring/badge.svg" alt="Mirroring"></a> <a href="https://ko-fi.com/I3I51KS8F"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a></p>
+<p><a href="https://openupm.com/packages/com.omiyagames.embedwebgltemplate/"><img src="https://img.shields.io/npm/v/com.omiyagames.embedwebgltemplate?label=openupm&amp;registry_uri=https://package.openupm.com" alt="openupm"></a> <a href="https://omiyagames.github.io/omiya-games-embed-webgl-template/"><img src="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/workflows/Host%20DocFX%20Documentation/badge.svg" alt="Documentation"></a> <a href="https://ko-fi.com/I3I51KS8F"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a></p>
 <p><img src="https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/example.gif" alt="Animated Example"></p>
 <p><strong>Embed WebGL Template</strong> is a WebGL template for Unity.  The purpose is to allow Unity to create WebGL builds that embeds well in popular web portals such as Itch.io, GameJolt, Newgrounds, etc.  Features this template provides include:</p>
 <ul>
@@ -82,6 +82,11 @@
 </ul>
 </li>
 <li>A light and dark mode.</li>
+</ul>
+<h4 id="note">Note:</h4>
+<ul>
+<li>Version 2.0.0 and above supports Unity 2020.1 and up.</li>
+<li>Version 1.1.0 supports Unity 2019.4.</li>
 </ul>
 <h2 id="installing-package">Installing Package</h2>
 <p>There are at least 3 ways to install this Unity package:</p>
@@ -145,15 +150,15 @@
 <ol>
 <li>In the Project Settings window, click on &quot;Player&quot; on the left sidebar.</li>
 <li>Select the WebGL tab (if it&#39;s not there, you&#39;ll need to install WebGL build files on Unity Hub).</li>
-<li>Finally, under the group, &quot;Resolution and Presentation&quot;, select <code>Embed WebGL Template</code>:</li>
+<li>Finally, under the group, &quot;Resolution and Presentation&quot;, select <code>Embed</code>:</li>
 </ol>
 <p><img src="https://omiyagames.github.io/omiya-games-embed-webgl-template/resources/settings2.png" alt="Final Player Settings Configuration"></p>
 <h2 id="customizing-template">Customizing Template</h2>
 <p>Files to consider customizing to suit your needs include:</p>
 <ul>
-<li>The <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/progressLogo.Light.png">progressLogo.Light.png</a> and <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/progressLogo.Dark.png">progressLogo.Dark.png</a> are logos displayed during the light and dark WebGL build theme are used respectively. Feel free to replace them.</li>
-<li>While embedded builds don&#39;t show this, it might be good idea to replace the <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/favicon.ico">favicon.ico</a> as well.</li>
-<li>Consider also editing the <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/master/Samples%7E/UnityTemplate/TemplateData/style.css">style.css</a> file to your liking.</li>
+<li>The <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/main/Samples%7E/Embed/logo-light.png">logo-light.png</a> and <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/main/Samples%7E/Embed/logo-dark.png">logo-dark.png</a> are logos displayed during the light and dark WebGL build theme are used respectively. Feel free to replace them.</li>
+<li>While embedded builds don&#39;t show this, it might be good idea to replace the <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/main/Samples%7E/Embed/favicon.ico">favicon.ico</a> as well.</li>
+<li>Consider also editing the <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/tree/main/Samples%7E/Embed/TemplateData/style.css">style.css</a> file to your liking.</li>
 </ul>
 <h2 id="other-info">Other Info</h2>
 <ul>
@@ -171,12 +176,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/blob/master/Documentation~/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/OmiyaGames/omiya-games-embed-webgl-template/blob/main/Documentation~/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

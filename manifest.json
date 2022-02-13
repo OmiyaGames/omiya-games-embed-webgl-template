@@ -27,7 +27,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "coVSoDzmlsDsj0NggYcTXQ=="
+          "hash": "s3AGCqd7RdvbnP2jLHha/fKCwn66mwZleFQ/PKId93A="
         }
       },
       "is_incremental": false,
@@ -39,7 +39,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/changelog.html",
-          "hash": "MlNwMibpeFx0kksUDQhEQQ=="
+          "hash": "j6swb1XrNIpcxtYDv0FiBA18oqU8BTvM4JS0jl1GhoE="
         }
       },
       "is_incremental": false,
@@ -51,7 +51,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "rHik6BFDrIBb6sneVOS/BA=="
+          "hash": "UrHIAyszIPz6NyrY79tnSTa2cbRXbcGtwFx8+oS5D6o="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "A7x9VwU4dub45oGSUHaC2Q=="
+          "hash": "QDkMHwIyfJrjkRshKThOvHM3gwP1q6O8KvRVsr20n2M="
         }
       },
       "is_incremental": false,
